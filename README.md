@@ -42,8 +42,9 @@ Uncomment 242 - 246 and 253 - 254 in the same file and rebuild it again. but com
   - build darknet
     - make a segment about changing the correct file to enable different features
 - ## wget data
-  - dataset from google drive
+  - dataset from google drive (https://drive.google.com/file/d/1f5riyMndim_yFMy63Nqn6IdwCOW6eK2j/view?usp=sharing)
   - weights + configs + obj.data + obj.names (classes)
+
 - ## train model
   - maybe define parameters so it is easy to change between the different configs and setups. (if additional features are enabled then make sure the cfg and so on is correct)
 - ## show precision of model
