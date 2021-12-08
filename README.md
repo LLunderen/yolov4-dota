@@ -39,16 +39,18 @@ Uncomment 242 - 246 and 253 - 254 in the same file and rebuild it again. but com
 
 # workflow:
 - ## download darknet
-  - build darknet
-    - make a segment about changing the correct file to enable different features
+  - [x] build darknet
+    - [ ] make a segment about changing the correct file to enable different features
 - ## wget data
-  - dataset from google drive (https://drive.google.com/file/d/1f5riyMndim_yFMy63Nqn6IdwCOW6eK2j/view?usp=sharing)
-  - weights + configs + obj.data + obj.names (classes)
+  - [x] dataset from google drive (https://drive.google.com/file/d/1f5riyMndim_yFMy63Nqn6IdwCOW6eK2j/view?usp=sharing)
+  - [x] weights + configs + obj.data + obj.names (classes)
 
 - ## train model
-  - maybe define parameters so it is easy to change between the different configs and setups. (if additional features are enabled then make sure the cfg and so on is correct)
-- ## show precision of model
+  - [x] maybe define parameters so it is easy to change between the different configs and setups. (if additional features are enabled then make sure the cfg and so on is correct)
+- [x] show precision of model
   - detector map EZ
-- ## show some results
-  - take some test images and show their resulst (can we rename the output to avoid overriding "predicions.jpg") (gid Alexey var lige så god til sit eget repo som han er til at svare comments https://github.com/pjreddie/darknet/issues/723#issuecomment-383332978)
+- [ ] show some results
+  - [x] show predictions
+  - [ ] show a collection of predictions
+  - [ ] take some test images and show their resulst (can we rename the output to avoid overriding "predicions.jpg") (gid Alexey var lige så god til sit eget repo som han er til at svare comments https://github.com/pjreddie/darknet/issues/723#issuecomment-383332978)
     - show multiple at once (2-5?)
