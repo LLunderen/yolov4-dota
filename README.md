@@ -40,7 +40,7 @@ Uncomment 242 - 246 and 253 - 254 in the same file and rebuild it again. but com
 # workflow:
 - ## download darknet
   - [x] build darknet
-    - [ ] make a segment about changing the correct file to enable different features
+    - [x] make a segment about changing the correct file to enable different features
 - ## wget data
   - [x] dataset from google drive (https://drive.google.com/file/d/1f5riyMndim_yFMy63Nqn6IdwCOW6eK2j/view?usp=sharing)
   - [x] weights + configs + obj.data + obj.names (classes)
